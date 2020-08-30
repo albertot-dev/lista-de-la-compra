@@ -1,0 +1,10 @@
+mat-form-field {
+    width: 100%;
+}
+.buttons-dialog-container {
+    display:flex;
+    justify-content: flex-end;
+    button+button {
+        margin-left: 10px;
+    }
+}

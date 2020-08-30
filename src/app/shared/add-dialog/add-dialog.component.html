@@ -1,0 +1,8 @@
+<mat-form-field>
+    <mat-label>Introduce el nuevo artículo</mat-label>
+    <input matInput type="text" [(ngModel)]="newItem">
+</mat-form-field>
+<div class="buttons-dialog-container">
+    <button mat-raised-button (click)="closeDialog()">Cancelar</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="newItem">Añadir</button>
+</div>
